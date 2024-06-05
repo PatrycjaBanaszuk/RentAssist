@@ -11,8 +11,12 @@
 	<groupId>com.pwbanaszuk</groupId>
 	<artifactId>RentAssist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>RentAssist</name>
 	<description>emphasises assistance with rent management and debt collection</description>
+	<modules>
+		<module>Model</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
